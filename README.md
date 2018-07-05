@@ -1,7 +1,10 @@
-BlockChain Demo Application
+# BlockChain Demo
 
-Third Parties
--'PocketSocket'
--'AFNetworking', '~> 2.5.4'
+Blockchain demo application is for tracking the blocks and unconfirmed transactions.
+
+## Requirements
+
+- 'PocketSocket'- webSocket
+- 'AFNetworking'- network request
 
 
