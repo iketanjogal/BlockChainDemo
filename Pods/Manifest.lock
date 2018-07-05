@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - PocketSocket (1.0.1):
+    - PocketSocket/Client (= 1.0.1)
+    - PocketSocket/Core (= 1.0.1)
+    - PocketSocket/Server (= 1.0.1)
+  - PocketSocket/Client (1.0.1):
+    - PocketSocket/Core
+  - PocketSocket/Core (1.0.1)
+  - PocketSocket/Server (1.0.1):
+    - PocketSocket/Client
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.4)
+  - PocketSocket
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - PocketSocket
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  PocketSocket: 9c6867d66fb4f962af96b9b07f4b45bb561b2c2a
+
+PODFILE CHECKSUM: fbd6c4b16756c79077642b7773deadaecd50768d
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C892484803AFF77261D6EDF /* libPods-BlockChainTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A4DD85BE5A84760A789B29 /* libPods-BlockChainTracker.a */; };
+		D65517D120EA2C9700900604 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D65517D020EA2C9700900604 /* AppDelegate.m */; };
+		D65517DA20EA2C9700900604 /* BlockChainTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D65517D820EA2C9700900604 /* BlockChainTracker.xcdatamodeld */; };
+		D65517DC20EA2C9A00900604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65517DB20EA2C9A00900604 /* Assets.xcassets */; };
+		D65517DF20EA2C9A00900604 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65517DD20EA2C9A00900604 /* LaunchScreen.storyboard */; };
+		D65517E220EA2C9A00900604 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D65517E120EA2C9A00900604 /* main.m */; };
+		D65517EC20EA2C9B00900604 /* BlockChainTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D65517EB20EA2C9B00900604 /* BlockChainTrackerTests.m */; };
+		D65517F720EA2C9B00900604 /* BlockChainTrackerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D65517F620EA2C9B00900604 /* BlockChainTrackerUITests.m */; };
+		D655180520EA5A7400900604 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D655180420EA5A7400900604 /* CFNetwork.framework */; };
+		D655180720EA5A8600900604 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D655180620EA5A8600900604 /* Foundation.framework */; };
+		D655180920EA5A9000900604 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D655180820EA5A9000900604 /* Security.framework */; };
+		D655180B20EA5ABA00900604 /* libSystem.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D655180A20EA5ABA00900604 /* libSystem.tbd */; };
+		D655180D20EA5AC300900604 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D655180C20EA5AC300900604 /* libz.tbd */; };
+		D655181220EA820000900604 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D655181020EA820000900604 /* HomeVC.m */; };
+		D655181320EA820000900604 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D655181120EA820000900604 /* HomeVC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D65517E820EA2C9B00900604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D65517C420EA2C9700900604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65517CB20EA2C9700900604;
+			remoteInfo = BlockChainTracker;
+		};
+		D65517F320EA2C9B00900604 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D65517C420EA2C9700900604 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65517CB20EA2C9700900604;
+			remoteInfo = BlockChainTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76B1DDD8A272C0AC540094CE /* Pods-BlockChainTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockChainTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlockChainTracker/Pods-BlockChainTracker.release.xcconfig"; sourceTree = "<group>"; };
+		B30BB43040EEB1104243FCBB /* Pods-BlockChainTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockChainTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlockChainTracker/Pods-BlockChainTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		D65517CC20EA2C9700900604 /* BlockChainTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockChainTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65517CF20EA2C9700900604 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D65517D020EA2C9700900604 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D65517D920EA2C9700900604 /* BlockChainTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlockChainTracker.xcdatamodel; sourceTree = "<group>"; };
+		D65517DB20EA2C9A00900604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D65517DE20EA2C9A00900604 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D65517E020EA2C9A00900604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65517E120EA2C9A00900604 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D65517E720EA2C9B00900604 /* BlockChainTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockChainTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65517EB20EA2C9B00900604 /* BlockChainTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockChainTrackerTests.m; sourceTree = "<group>"; };
+		D65517ED20EA2C9B00900604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65517F220EA2C9B00900604 /* BlockChainTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockChainTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65517F620EA2C9B00900604 /* BlockChainTrackerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockChainTrackerUITests.m; sourceTree = "<group>"; };
+		D65517F820EA2C9B00900604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D655180420EA5A7400900604 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		D655180620EA5A8600900604 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D655180820EA5A9000900604 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		D655180A20EA5ABA00900604 /* libSystem.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libSystem.tbd; path = usr/lib/libSystem.tbd; sourceTree = SDKROOT; };
+		D655180C20EA5AC300900604 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D655180F20EA820000900604 /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		D655181020EA820000900604 /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
+		D655181120EA820000900604 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		E9A4DD85BE5A84760A789B29 /* libPods-BlockChainTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlockChainTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D65517C920EA2C9700900604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D655180D20EA5AC300900604 /* libz.tbd in Frameworks */,
+				D655180B20EA5ABA00900604 /* libSystem.tbd in Frameworks */,
+				D655180920EA5A9000900604 /* Security.framework in Frameworks */,
+				D655180720EA5A8600900604 /* Foundation.framework in Frameworks */,
+				D655180520EA5A7400900604 /* CFNetwork.framework in Frameworks */,
+				2C892484803AFF77261D6EDF /* libPods-BlockChainTracker.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65517E420EA2C9B00900604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65517EF20EA2C9B00900604 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062AEEC347047C0756CFEB16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D655180C20EA5AC300900604 /* libz.tbd */,
+				D655180A20EA5ABA00900604 /* libSystem.tbd */,
+				D655180820EA5A9000900604 /* Security.framework */,
+				D655180620EA5A8600900604 /* Foundation.framework */,
+				D655180420EA5A7400900604 /* CFNetwork.framework */,
+				E9A4DD85BE5A84760A789B29 /* libPods-BlockChainTracker.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D65517C320EA2C9700900604 = {
+			isa = PBXGroup;
+			children = (
+				D65517CE20EA2C9700900604 /* BlockChainTracker */,
+				D65517EA20EA2C9B00900604 /* BlockChainTrackerTests */,
+				D65517F520EA2C9B00900604 /* BlockChainTrackerUITests */,
+				D65517CD20EA2C9700900604 /* Products */,
+				E72EC674A1AD906FD20EFE40 /* Pods */,
+				062AEEC347047C0756CFEB16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D65517CD20EA2C9700900604 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D65517CC20EA2C9700900604 /* BlockChainTracker.app */,
+				D65517E720EA2C9B00900604 /* BlockChainTrackerTests.xctest */,
+				D65517F220EA2C9B00900604 /* BlockChainTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D65517CE20EA2C9700900604 /* BlockChainTracker */ = {
+			isa = PBXGroup;
+			children = (
+				D65517CF20EA2C9700900604 /* AppDelegate.h */,
+				D65517D020EA2C9700900604 /* AppDelegate.m */,
+				D655180F20EA820000900604 /* HomeVC.h */,
+				D655181020EA820000900604 /* HomeVC.m */,
+				D655181120EA820000900604 /* HomeVC.xib */,
+				D65517DB20EA2C9A00900604 /* Assets.xcassets */,
+				D65517DD20EA2C9A00900604 /* LaunchScreen.storyboard */,
+				D65517E020EA2C9A00900604 /* Info.plist */,
+				D65517E120EA2C9A00900604 /* main.m */,
+				D65517D820EA2C9700900604 /* BlockChainTracker.xcdatamodeld */,
+			);
+			path = BlockChainTracker;
+			sourceTree = "<group>";
+		};
+		D65517EA20EA2C9B00900604 /* BlockChainTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D65517EB20EA2C9B00900604 /* BlockChainTrackerTests.m */,
+				D65517ED20EA2C9B00900604 /* Info.plist */,
+			);
+			path = BlockChainTrackerTests;
+			sourceTree = "<group>";
+		};
+		D65517F520EA2C9B00900604 /* BlockChainTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D65517F620EA2C9B00900604 /* BlockChainTrackerUITests.m */,
+				D65517F820EA2C9B00900604 /* Info.plist */,
+			);
+			path = BlockChainTrackerUITests;
+			sourceTree = "<group>";
+		};
+		E72EC674A1AD906FD20EFE40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B30BB43040EEB1104243FCBB /* Pods-BlockChainTracker.debug.xcconfig */,
+				76B1DDD8A272C0AC540094CE /* Pods-BlockChainTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D65517CB20EA2C9700900604 /* BlockChainTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65517FB20EA2C9B00900604 /* Build configuration list for PBXNativeTarget "BlockChainTracker" */;
+			buildPhases = (
+				67F24444EBEB36F3ECA17300 /* [CP] Check Pods Manifest.lock */,
+				D65517C820EA2C9700900604 /* Sources */,
+				D65517C920EA2C9700900604 /* Frameworks */,
+				D65517CA20EA2C9700900604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlockChainTracker;
+			productName = BlockChainTracker;
+			productReference = D65517CC20EA2C9700900604 /* BlockChainTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D65517E620EA2C9B00900604 /* BlockChainTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65517FE20EA2C9B00900604 /* Build configuration list for PBXNativeTarget "BlockChainTrackerTests" */;
+			buildPhases = (
+				D65517E320EA2C9B00900604 /* Sources */,
+				D65517E420EA2C9B00900604 /* Frameworks */,
+				D65517E520EA2C9B00900604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D65517E920EA2C9B00900604 /* PBXTargetDependency */,
+			);
+			name = BlockChainTrackerTests;
+			productName = BlockChainTrackerTests;
+			productReference = D65517E720EA2C9B00900604 /* BlockChainTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D65517F120EA2C9B00900604 /* BlockChainTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D655180120EA2C9B00900604 /* Build configuration list for PBXNativeTarget "BlockChainTrackerUITests" */;
+			buildPhases = (
+				D65517EE20EA2C9B00900604 /* Sources */,
+				D65517EF20EA2C9B00900604 /* Frameworks */,
+				D65517F020EA2C9B00900604 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D65517F420EA2C9B00900604 /* PBXTargetDependency */,
+			);
+			name = BlockChainTrackerUITests;
+			productName = BlockChainTrackerUITests;
+			productReference = D65517F220EA2C9B00900604 /* BlockChainTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D65517C420EA2C9700900604 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = ketanDemo;
+				TargetAttributes = {
+					D65517CB20EA2C9700900604 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					D65517E620EA2C9B00900604 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D65517CB20EA2C9700900604;
+					};
+					D65517F120EA2C9B00900604 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = D65517CB20EA2C9700900604;
+					};
+				};
+			};
+			buildConfigurationList = D65517C720EA2C9700900604 /* Build configuration list for PBXProject "BlockChainTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D65517C320EA2C9700900604;
+			productRefGroup = D65517CD20EA2C9700900604 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D65517CB20EA2C9700900604 /* BlockChainTracker */,
+				D65517E620EA2C9B00900604 /* BlockChainTrackerTests */,
+				D65517F120EA2C9B00900604 /* BlockChainTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D65517CA20EA2C9700900604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65517DF20EA2C9A00900604 /* LaunchScreen.storyboard in Resources */,
+				D655181320EA820000900604 /* HomeVC.xib in Resources */,
+				D65517DC20EA2C9A00900604 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65517E520EA2C9B00900604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65517F020EA2C9B00900604 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67F24444EBEB36F3ECA17300 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockChainTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D65517C820EA2C9700900604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65517D120EA2C9700900604 /* AppDelegate.m in Sources */,
+				D655181220EA820000900604 /* HomeVC.m in Sources */,
+				D65517E220EA2C9A00900604 /* main.m in Sources */,
+				D65517DA20EA2C9700900604 /* BlockChainTracker.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65517E320EA2C9B00900604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65517EC20EA2C9B00900604 /* BlockChainTrackerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65517EE20EA2C9B00900604 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65517F720EA2C9B00900604 /* BlockChainTrackerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D65517E920EA2C9B00900604 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D65517CB20EA2C9700900604 /* BlockChainTracker */;
+			targetProxy = D65517E820EA2C9B00900604 /* PBXContainerItemProxy */;
+		};
+		D65517F420EA2C9B00900604 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D65517CB20EA2C9700900604 /* BlockChainTracker */;
+			targetProxy = D65517F320EA2C9B00900604 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D65517DD20EA2C9A00900604 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65517DE20EA2C9A00900604 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D65517F920EA2C9B00900604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D65517FA20EA2C9B00900604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D65517FC20EA2C9B00900604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30BB43040EEB1104243FCBB /* Pods-BlockChainTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BlockChainTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ketanDemo.BlockChainTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D65517FD20EA2C9B00900604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B1DDD8A272C0AC540094CE /* Pods-BlockChainTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = BlockChainTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ketanDemo.BlockChainTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D65517FF20EA2C9B00900604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlockChainTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ketanDemo.BlockChainTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockChainTracker.app/BlockChainTracker";
+			};
+			name = Debug;
+		};
+		D655180020EA2C9B00900604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlockChainTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ketanDemo.BlockChainTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlockChainTracker.app/BlockChainTracker";
+			};
+			name = Release;
+		};
+		D655180220EA2C9B00900604 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlockChainTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ketanDemo.BlockChainTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockChainTracker;
+			};
+			name = Debug;
+		};
+		D655180320EA2C9B00900604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlockChainTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ketanDemo.BlockChainTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlockChainTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D65517C720EA2C9700900604 /* Build configuration list for PBXProject "BlockChainTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65517F920EA2C9B00900604 /* Debug */,
+				D65517FA20EA2C9B00900604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65517FB20EA2C9B00900604 /* Build configuration list for PBXNativeTarget "BlockChainTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65517FC20EA2C9B00900604 /* Debug */,
+				D65517FD20EA2C9B00900604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65517FE20EA2C9B00900604 /* Build configuration list for PBXNativeTarget "BlockChainTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65517FF20EA2C9B00900604 /* Debug */,
+				D655180020EA2C9B00900604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D655180120EA2C9B00900604 /* Build configuration list for PBXNativeTarget "BlockChainTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D655180220EA2C9B00900604 /* Debug */,
+				D655180320EA2C9B00900604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D65517D820EA2C9700900604 /* BlockChainTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D65517D920EA2C9700900604 /* BlockChainTracker.xcdatamodel */,
+			);
+			currentVersion = D65517D920EA2C9700900604 /* BlockChainTracker.xcdatamodel */;
+			path = BlockChainTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D65517C420EA2C9700900604 /* Project object */;
+}
